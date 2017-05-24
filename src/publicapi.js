@@ -270,3 +270,4 @@ function RootBlockMixin(_) {
     this.controller.handle('edit');
   };
 }
+module.exports = MathQuill;

@@ -10,14 +10,12 @@
 
 (function() {
 
-var jQuery = window.jQuery,
+var jQuery = require("jquery");
   undefined,
   mqCmdId = 'mathquill-command-id',
   mqBlockId = 'mathquill-block-id',
   min = Math.min,
   max = Math.max;
-
-if (!jQuery) throw 'MathQuill requires jQuery 1.5.2+ to be loaded first';
 
 function noop() {}
 
