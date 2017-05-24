@@ -1,4 +1,5 @@
 {
+  "main": "build/mathquill.js",
   "name": "mathquill",
   "description": "Easily type math in your webapp",
   "version": "0.10.1",
